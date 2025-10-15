@@ -1,0 +1,29 @@
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Editor and IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.vim/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary Files
+*.tmp
+*.temp
+*.log
+*.bak
+
+# Personal Notes (if users want to keep local notes)
+notes/
+scratch/

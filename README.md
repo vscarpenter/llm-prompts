@@ -7,7 +7,7 @@
 ## 🚀 Why this exists
 
 - The real power of LLMs lies in the *prompt*, not the model.
-- **67+ battle-tested prompts** covering 11 domains — from code reviews to business strategy.
+- **79+ battle-tested prompts** covering 14 domains — from code reviews to business strategy.
 - Save time. Avoid prompt trial & error. Start with proven templates.
 - Build a shared, evolving "prompt baseline" across teams or the community.
 - Open-source and LLM-agnostic — works with Claude, GPT-4, Gemini, and more.
@@ -31,7 +31,10 @@
     ├── creative/         (5 prompts)
     ├── data/             (5 prompts)
     ├── developer/        (10 prompts)
-    ├── learning/         (5 prompts)
+    ├── documentation/    (3 prompts)
+    ├── learning/         (7 prompts)
+    ├── meetings/         (4 prompts)
+    ├── planning/         (3 prompts)
     ├── product/          (5 prompts)
     ├── productivity/     (5 prompts)
     ├── summarization/    (2 prompts)
@@ -98,13 +101,34 @@ Software development and documentation
 - `refactor.md` - Code refactoring
 - `translate_language.md` - Language translation
 
-### 📚 Learning (5 prompts)
+### 📄 Documentation (3 prompts)
+Technical documentation and decision records
+- `adr.md` - Architecture Decision Records
+- `api_documentation.md` - API endpoint documentation
+- `readme_generator.md` - README file generation
+
+### 📚 Learning (7 prompts)
 Education and knowledge acquisition
 - `explain_concept.md` - Concept explanations
+- `explain_like_im_5.md` - Simplified explanations
 - `flashcards.md` - Study flashcards
 - `learning_path.md` - Curriculum creation
 - `quiz_generator.md` - Assessment creation
 - `study_guide.md` - Study materials
+- `technical_concept_breakdown.md` - Detailed technical explanations
+
+### 🤝 Meetings (4 prompts)
+Meeting facilitation and collaboration
+- `decision_log.md` - Document decisions and rationale
+- `one_on_one_agenda.md` - 1-on-1 meeting structure
+- `retrospective.md` - Sprint/project retrospectives
+- `technical_discussion.md` - Technical discussion facilitation
+
+### 📋 Planning (3 prompts)
+Project and task planning
+- `estimation.md` - Task complexity and timeline estimation
+- `feature_breakdown.md` - Break features into tasks
+- `technical_design.md` - Technical design documents
 
 ### 🎯 Product (5 prompts)
 Product management frameworks
@@ -140,7 +164,7 @@ Content creation and editing
 
 ---
 
-**Total: 67+ prompts across 11 domains**
+**Total: 79+ prompts across 14 domains**
 
 - `prompts/…` — grouped by domain (writing, dev, analysis, business, etc.)
 - each `.md` is one prompt (with sections for **"Prompt Text"**, **"Explanation / Tips for Use"**, **"Variants / Customization"**)

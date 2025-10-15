@@ -224,6 +224,6 @@ Thank you to the broader LLM and prompt engineering community for inspiration. T
 
 ## 📬 Stay in Touch
 
-- LinkedIn: [Your Profile]
+- LinkedIn: https://www.linkedin.com/in/vinnycarpenter/
 - Website: https://vinny.dev/
 - Feel free to ⭐ the repo, clone it, and share your favorite prompts.

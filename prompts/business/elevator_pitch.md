@@ -1,45 +1,36 @@
-# Elevator Pitch Creator
+---
+domain: business
+version: 1.1
+author: llm-prompts
+---
+
+# Elevator Pitch
 
 ## Prompt
-> Create a concise, compelling elevator pitch that explains your business and gets people interested.
+> Craft a compelling elevator pitch for a product or idea.
 >
-> Company/Product: "{{name}}"
-> What it does: "{{description}}"
-> Problem solved: "{{pain_point}}"
-> Target customer: "{{audience}}"
-> Traction (optional): "{{metrics_or_milestones}}"
-> Ask: "{{what_you_want_from_listener}}"
+> Product: "{{product}}"
+> Audience: "{{audience}}"
+> Key value: "{{value}}"
+> Constraints: "{{time_limit}}" seconds
 >
-> **Elevator pitch structure (30-60 seconds):**
->
-> **Hook** (5-10 seconds):
-> [Attention-grabbing opening - surprising stat, provocative question, or bold statement]
->
-> **Problem** (10-15 seconds):
-> [What painful problem exists that people care about]
->
-> **Solution** (15-20 seconds):
-> [How your product solves it uniquely and elegantly]
->
-> **Traction** (5-10 seconds):
-> [Proof point - customers, revenue, growth, team]
->
-> **Ask** (5-10 seconds):
-> [Clear call to action - what you want from them]
->
-> **Variations:**
-> - **30-second version**: [Ultra-concise for quick encounters]
-> - **60-second version**: [Full pitch with all elements]
-> - **2-minute version**: [Extended with story or demo]
+> **Output:** A concise pitch with a single sentence value proposition, followed by two supporting bullets.
+
+## Output Format
+- One-paragraph value proposition plus 2 bullet points.
+- Optional variant: 30-second or 60-second tweaks.
+
+## Sample Output
+```markdown
+We help {audience} achieve {value} by {unique mechanism}. This is better because {key benefit}. 
+- Benefit 1: ...
+- Benefit 2: ...
+```
 
 ## Tips / Notes
-- Specify audience: "for investors," "for customers," "for potential hires," "for press"
-- Add personality: "inject humor," "lead with mission," "use storytelling"
-- Request hooks: "create 5 different opening hooks to test"
-- For practice: "include common objections and responses"
+- Emphasize problem, solution, and proof point quickly.
+- Be explicit about target audience.
 
 ## Variants
-- "Investor pitch" (focus on market size, traction, team)
-- "Customer pitch" (focus on pain and solution)
-- "Recruiting pitch" (focus on mission and opportunity)
-- "Competition pitch format" (problem, existing solutions, why they fail, our better way)
+- "Concise for formal introductions" (short and crisp)
+- "Story-driven" (adds narrative context)

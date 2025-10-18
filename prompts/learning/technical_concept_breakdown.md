@@ -1,3 +1,9 @@
+---
+domain: learning
+version: 1.1
+author: llm-prompts
+---
+
 # Technical Concept Breakdown
 
 ## Prompt
@@ -15,15 +21,20 @@
 >
 > Use concrete examples and avoid unnecessary jargon. When technical terms are required, briefly define them.
 
+## Output Format
+- Sections with concise explanations and a relevant analogy.
+
+## Sample Output
+```markdown
+Overview: ...
+```
+
 ## Tips / Notes
 - More detailed than ELI5, but still focused on clarity
 - Useful for learning new technologies or architectural patterns
-- Great for creating internal knowledge base articles
+- Great for internal knowledge base articles
 - Helps identify gaps in your own understanding
 
-## Example Usage
-Replace `{{concept}}` with:
-- "Event-driven architecture"
-- "JWT authentication"
-- "Database sharding"
-- "Microservices vs monoliths"
+## Variants
+- "ELI5" (simplified) 
+- "Deep dive" (more technical depth)

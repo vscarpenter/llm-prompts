@@ -1,9 +1,15 @@
+---
+domain: planning
+version: 1.1
+author: llm-prompts
+---
+
 # Task Estimation
 
 ## Prompt
 > You are an engineering lead helping estimate work complexity and timeline.
 >
-> Task to estimate: {{task_description}}
+> Task to estimate: "{{task_description}}"
 >
 > Provide an estimation breakdown:
 >
@@ -13,13 +19,13 @@
 > ## Complexity Assessment
 >
 > **Known Complexity:**
-> - Parts we understand well
-> - Existing patterns we can follow
+>- Parts we understand well
+>- Existing patterns we can follow
 >
 > **Unknown Complexity:**
-> - Parts requiring research or investigation
-> - New patterns or technologies
-> - External dependencies
+>- Parts requiring research or investigation
+>- New patterns or technologies
+>- External dependencies
 >
 > ## Work Breakdown
 > 1. [Subtask] - Estimated time, confidence level (high/medium/low)
@@ -28,10 +34,10 @@
 > 4. [Code Review & Iteration] - Review cycles, addressing feedback
 >
 > ## Time Estimate
-> - **Best case:** {{X}} hours (everything goes smoothly)
-> - **Most likely:** {{Y}} hours (realistic estimate)
-> - **Worst case:** {{Z}} hours (if we hit unknowns)
->
+> - Best case: {{X}} hours
+> - Most likely: {{Y}} hours
+> - Worst case: {{Z}} hours
+> 
 > **Recommendation:** Plan for {{Y}} hours, buffer for {{Z}}
 >
 > ## Risk Factors
@@ -43,15 +49,14 @@
 > ## Confidence Level
 > {{High | Medium | Low}} - Explain why
 >
-> Be realistic, not optimistic. Account for testing, code review, and iteration time. Flag areas needing investigation before accurate estimation.
+> Be realistic, not optimistic. Account for testing, code review, and iteration time.
 
 ## Tips / Notes
-- Use t-shirt sizes (S/M/L/XL) for rough estimates, this format for detailed planning
+- Use t-shirt sizes for rough estimates
 - Include time for documentation and deployment
 - If confidence is low, spike/investigate first before committing to timeline
 - Multiply your initial estimate by 1.5-2x for more accuracy
 
 ## Variants
-**Story Point Estimation** - Convert to story points using Fibonacci scale with justification
-
-**Team Velocity Planning** - Estimate multiple tasks for sprint planning with capacity considerations
+- Story Point Estimation - Convert to story points using Fibonacci scale with justification
+- Team Velocity Planning - Estimate multiple tasks for sprint planning with capacity considerations

@@ -1,10 +1,16 @@
+---
+domain: learning
+version: 1.1
+author: llm-prompts
+---
+
 # Explain Concept (ELI5)
 
 ## Prompt
 > Explain the following concept in simple, accessible terms that anyone can understand.
 >
-> Concept: "{{concept_name}}"
-> Context (optional): "{{additional_context}}"
+> Concept: "{{concept}}"
+> Context (optional): "{{context}}"
 >
 > **Explanation structure:**
 > 1. **Simple definition** (one sentence, no jargon)
@@ -15,15 +21,23 @@
 >
 > **Tone:** Conversational, encouraging, non-condescending
 > **Avoid:** Jargon, circular definitions, overwhelming detail
-
-## Tips / Notes
-- Specify audience level: "explain like I'm 5," "explain like I'm 12," "explain for high school level"
-- Add learning goal: "so I can explain it to others" or "so I can apply it in my work"
-- Request analogies: "use a cooking analogy" or "relate to everyday technology"
-- For technical topics: "build from first principles" or "use visual descriptions"
-
-## Variants
-- "ELI5 format" (extremely simple, playful tone)
-- "Explain with visual metaphor" (describe an image or diagram)
-- "Socratic explanation" (use questions to guide understanding)
-- "Build-up explanation" (start simple, progressively add complexity)
++
++## Output Format
++- Simple explanation with optional examples or visuals.
++
++## Sample Output
++```markdown
++Concept: Quantum Superposition
++Explanation: ...
++```
++
++## Tips / Notes
++- Audience level: "ELI5", "explain like a student" etc.
++- Learning goal: what to enable next
++- Request analogies: cooking analogy, everyday tech
++
++## Variants
++- "ELI5 format" (extremely simple, playful)
++- "Explain with visual metaphor" (image/diagram)
++- "Socratic explanation" (guided questions)
++- "Build-up explanation" (start simple, add complexity)

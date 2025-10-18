@@ -1,3 +1,9 @@
+---
+domain: planning
+version: 1.1
+author: llm-prompts
+---
+
 # Feature Breakdown
 
 ## Prompt
@@ -45,6 +51,5 @@
 - Don't over-plan - details will emerge during implementation
 
 ## Variants
-**Bug Investigation Plan** - Break down steps to diagnose and fix a complex bug
-
-**Refactoring Plan** - Structure incremental refactoring with no-downtime approach
+- Bug Investigation Plan - Break down steps to diagnose and fix a complex bug
+- Refactoring Plan - Structure incremental refactoring with no-downtime approach

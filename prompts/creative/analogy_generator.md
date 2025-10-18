@@ -1,3 +1,9 @@
+---
+domain: creative
+version: 1.1
+author: llm-prompts
+---
+
 # Analogy Generator
 
 ## Prompt
@@ -26,6 +32,14 @@
 >    - Mapping (show correspondences)
 >    - Insight (what the analogy reveals)
 >    - Limitations (where analogy breaks down)
+
+## Output Format
+- Analogy in one to two sentences plus a short explanation.
+
+## Sample Output
+```markdown
+"Explaining a distributed system is like coordinating a team of musicians: each service plays its own part, and orchestration ensures harmony."
+```
 
 ## Tips / Notes
 - Specify domain: "use cooking analogies," "use sports references," "use nature examples"

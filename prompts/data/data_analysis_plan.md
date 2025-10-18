@@ -1,3 +1,9 @@
+---
+domain: data
+version: 1.1
+author: llm-prompts
+---
+
 # Data Analysis Plan
 
 ## Prompt
@@ -36,15 +42,15 @@
 > - Key insights to surface
 > - Recommendations format
 > - Audience and communication approach
-
-## Tips / Notes
-- Specify analysis type: "exploratory," "confirmatory," "predictive modeling"
-- Add constraints: "analysis must complete in 2 days," "use only SQL"
-- Request specific methods: "include hypothesis testing," "use regression analysis"
-- For presentations: "include executive summary approach"
-
-## Variants
-- "Exploratory data analysis (EDA) checklist" (systematic exploration steps)
-- "A/B test analysis plan" (specific to experiment analysis)
-- "Time series analysis approach" (for temporal data)
-- "Cohort analysis framework" (user behavior over time)
+>
++## Tips / Notes
++- Specify analysis type: "exploratory," "confirmatory," "predictive modeling"
++- Add constraints: "analysis must complete in 2 days," "use only SQL"
++- Request specific methods: "include hypothesis testing," "use regression analysis"
++- For presentations: "include executive summary approach"
++
++## Variants
++- "Exploratory data analysis (EDA) checklist" (systematic exploration steps)
++- "A/B test analysis plan" (specific to experiment analysis)
++- "Time series analysis approach" (for temporal data)
++- "Cohort analysis framework" (user behavior over time)

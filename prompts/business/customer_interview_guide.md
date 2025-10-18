@@ -1,3 +1,9 @@
+---
+domain: business
+version: 1.1
+author: llm-prompts
+---
+
 # Customer Interview Guide
 
 ## Prompt
@@ -50,15 +56,25 @@
 > - Listen more than talk (80/20 rule)
 > - Ask for specific examples and stories
 > - Note body language and emotional reactions
-
-## Tips / Notes
-- Specify goals: "uncover pain points," "validate solution fit," "understand workflow"
-- Add context: "B2B enterprise buyers" or "consumer mobile app users"
-- Request format: "include probes and follow-ups for each question"
-- For analysis: "include note-taking template"
-
-## Variants
-- "Problem interview" (validate problem exists and is painful)
-- "Solution interview" (test if proposed solution resonates)
-- "Usability testing script" (task-based testing with specific product)
-- "NPS follow-up interview" (understand why promoters/detractors scored as they did)
++
++## Output Format
++- Provide a structured interview guide with sections for intro, questions, and closing.
++- Include probes and a note-taking template.
++
++## Sample Output
++```markdown
++### Introduction
++- Hi, I’m...
++
++### Questions
++1. How do you currently handle...
++2. Why is that important to you?
++```
++
++## Tips / Notes
++- Personalize questions to the segment.
++- Include probes for deeper insights.
++
++## Variants
++- "B2B enterprise focused" (longer, more formal)
++- "Consumer-focused" (short, casual)

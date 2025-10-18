@@ -1,3 +1,9 @@
+---
+domain: meetings
+version: 1.1
+author: llm-prompts
+---
+
 # Technical Discussion Facilitator
 
 ## Prompt
@@ -57,16 +63,11 @@
 > - [ ] {{Action if we choose Option 2}}
 >
 > **Pre-work:** Share this doc 48 hours before meeting. Ask attendees to review and add questions.
-
-## Tips / Notes
-- Send prep materials in advance for complex topics
-- Time-box discussion sections to stay focused
-- Capture unknowns that need investigation
-- Document decision and rationale after meeting
-
-## Variants
-**Design Review** - Focus on proposed solution with feedback structure
-
-**Architecture Discussion** - Include system diagrams, scalability considerations
-
-**Technical Spike Review** - Present findings from investigation with recommendations
++
++## Output Format
++- A structured discussion guide with objective, context, and decision path.
++
++## Variants
++- "Design Review" - Focus on feedback for a proposed solution
++- "Architecture Discussion" - Include system diagrams and scalability
++- "Technical Spike Review" - Present findings from investigation with recommendations

@@ -1,29 +1,39 @@
-# Executive Email Writer
+---
+domain: communication
+version: 1.1
+author: llm-prompts
+---
+
+# Executive Email
 
 ## Prompt
-> Convert these bullet points into a concise, executive-level email that respects busy schedules.
+> Draft a professional executive email.
 >
-> Context: "{{context}}"
-> Bullet points: "{{input_points}}"
+> To: "{{recipient}}"
+> Subject: "{{subject}}"
+> Body: "{{body}}"
 >
-> **Email structure:**
-> - Subject line (8 words max, action-oriented)
-> - Opening (1 sentence context)
-> - Key points (2-3 bullets or short paragraphs)
-> - Clear ask or next steps (1-2 sentences)
-> - Professional closing
->
-> **Tone:** Professional, confident, respectful of time
-> **Length:** Under 150 words
+> **Output:** Polished email text with proper salutation and signature.
+
+## Output Format
+- Full email text including subject line and closing.
+- Optional: short version for mobile.
+
+## Sample Output
+```markdown
+Subject: ...
+Dear ..., 
+...
+Best regards,
+...
+```
 
 ## Tips / Notes
-- Specify urgency: "mark as time-sensitive" or "casual FYI tone"
-- Add recipient context: "for Board of Directors" or "for direct reports"
-- Specify action needed: "requesting decision by Friday" or "informational only"
-- For formal settings: "use formal business language"
+- Maintain formal tone; avoid slang.
+- Include a clear call to action when needed.
 
 ## Variants
-- "Executive summary format" (visual sections with headers)
+- "Executive summary format" (visual headers)
 - "Include TL;DR at top" (one-sentence summary before body)
-- "Bad news email" (empathetic, solution-focused approach)
+- "Bad news email" (empathetic, solution-focused)
 - "Follow-up email" (reference previous conversation, focus on action items)

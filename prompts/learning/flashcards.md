@@ -1,3 +1,9 @@
+---
+domain: learning
+version: 1.1
+author: llm-prompts
+---
+
 # Flashcard Generator
 
 ## Prompt
@@ -12,22 +18,22 @@
 > - Create 15-25 cards covering key concepts
 > - Mix card types: definitions, examples, applications, connections
 > - Avoid yes/no questions (require recall, not recognition)
->
+> 
 > **Format:**
-> ```
-> Card 1
-> Front: [Question]
-> Back: [Answer]
-> ```
-
+>```
+>Card 1
+>Front: [Question]
+>Back: [Answer]
+>```
+ 
 ## Tips / Notes
-- Specify focus: "focus on definitions," "focus on applications," "focus on comparisons"
+- Specify focus: "definitions," "applications," "comparisons"
 - Add difficulty levels: "tag as beginner/intermediate/advanced"
 - Request card types: "include cloze deletion cards" or "include image description cards"
 - For languages: "include pronunciation hints" or "include example sentences"
 
 ## Variants
-- "Anki format" (formatted for Anki import)
-- "Quizlet format" (tab-separated for Quizlet import)
-- "Cloze deletion cards" (fill-in-the-blank format)
-- "Reverse cards" (create bidirectional cards for each concept)
+- "Anki format" (for Anki import)
+- "Quizlet format" (tab-separated for Quizlet)
+- "Cloze deletion cards" (fill-in-the-blank)
+- "Reverse cards" (bidirectional)

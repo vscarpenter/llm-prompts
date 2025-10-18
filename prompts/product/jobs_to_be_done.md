@@ -1,3 +1,9 @@
+---
+domain: product
+version: 1.1
+author: llm-prompts
+---
+
 # Jobs to Be Done (JTBD) Analysis
 
 ## Prompt
@@ -36,10 +42,18 @@
 > - How should our product help get this job done?
 > - What features align with this job?
 > - How do we outperform current solutions?
++
++## Output Format
++- Prioritized JTBD findings with 1-2 actionable next steps per item.
+
+## Sample Output
+```markdown
+Job: Improve onboarding; Action: ...
+```
 
 ## Tips / Notes
-- Focus on progress: "focus on the progress user is trying to make"
-- Include competing solutions: "what do users fire when they hire us?"
+- Focus on progress: "the progress user is trying to make"
+- Include competing solutions: "what do users hire us vs others"
 - Request job map: "break job into stages (beginning, middle, end)"
 - For innovation: "identify underserved jobs or unmet needs"
 

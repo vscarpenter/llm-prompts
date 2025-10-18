@@ -1,3 +1,9 @@
+---
+domain: writing
+version: 1.1
+author: llm-prompts
+---
+
 # Blog Post Outline Generator
 
 ## Prompt
@@ -51,6 +57,11 @@
 > - Images/visual suggestions
 > - Internal link opportunities
 > - External resources to cite
+
+## Output Format
+- Provide a clean Markdown outline following the above sections.
+- Include example Working Title options and one sample section skeleton.
+- Include a short meta description sample.
 
 ## Tips / Notes
 - Specify format: "how-to guide," "listicle," "thought leadership," "case study"

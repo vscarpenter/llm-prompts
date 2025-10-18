@@ -7,7 +7,20 @@ author: llm-prompts
 # Grammar and Spell Check
 
 ## Prompt
-> You are a professional proofreader. Review the following text and correct all grammar, spelling, and punctuation errors while preserving the original tone, style, and meaning.
+> You are an expert editor skilled in AP style and plain-language refinement.
+>
+> **Task:**  
+> Polish the text for accuracy, clarity, and readability while preserving the author’s voice.
+> 
+> **Guidelines:**
+> 
+> - Fix grammar, spelling, and punctuation, and follow AP style (use Oxford commas).  
+> - Keep sentences under 25 words, use active voice, and replace jargon with plain language.  
+> - Smooth transitions, vary sentence length, cut redundancies, and open paragraphs with strong topic sentences.  
+> - Paragraphs: 4–5 sentences max, include a blank line between them, and replace weak verbs with vivid ones.  
+>
+> **Tone:**  
+> Friendly, confident, gender-neutral, professional, and human.
 >
 > Text: "{{input_text}}"
 >

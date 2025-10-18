@@ -1,3 +1,9 @@
+---
+domain: analysis
+version: 1.1
+author: llm-prompts
+---
+
 # Competitive Analysis Framework
 
 ## Prompt
@@ -107,7 +113,6 @@
 >     │          [Competitor B]
 >     │
 >     │ [Competitor C]
-> Low Price
 > ```
 >
 > **6. SWOT vs. Competition**
@@ -148,15 +153,25 @@
 >
 > **Offensive opportunities:**
 > - [Where to attack competitors' weaknesses]
-
-## Tips / Notes
-- Specify depth: "quick competitive scan" or "comprehensive market analysis"
-- Add focus: "feature parity analysis," "pricing strategy," "market positioning"
-- Request format: "executive summary" or "detailed battle cards for sales"
-- For strategy: "include blue ocean opportunities (uncontested market space)"
-
-## Variants
-- "Competitive battle cards" (sales enablement, how to win vs each competitor)
-- "Market positioning analysis" (perceptual maps, strategic positioning)
-- "Pricing competitive analysis" (deep dive on pricing and packaging)
-- "Feature gap analysis" (what to build to reach feature parity or leapfrog)
+>
++## Output Format
++- Provide a concise executive summary of the landscape and top 3 strategic moves.
++- Deliver a structured battle-card style output for quick use in sales.
++
++## Sample Output
++```markdown
++Topic: Example Market
++Top Moves: 1) Parity pricing, 2) Target niche segment, 3) Improve onboarding
++```
++
++## Tips / Notes
++- Specify depth: "quick competitive scan" or "comprehensive market analysis"
++- Add focus: "feature parity analysis," "pricing strategy," "market positioning"
++- Request format: "executive summary" or "detailed battle cards for sales"
++- For strategy: "include blue ocean opportunities (uncontested market space)"
++
++## Variants
++- "Competitive battle cards" (sales enablement, how to win vs each competitor)
++- "Market positioning analysis" (perceptual maps, strategic positioning)
++- "Pricing competitive analysis" (deep dive on pricing and packaging)
++- "Feature gap analysis" (what to build to reach feature parity or leapfrog)

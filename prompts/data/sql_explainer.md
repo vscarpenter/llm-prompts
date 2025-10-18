@@ -1,3 +1,9 @@
+---
+domain: data
+version: 1.1
+author: llm-prompts
+---
+
 # SQL Query Explainer
 
 ## Prompt
@@ -34,6 +40,10 @@
 >
 > **5. Plain language summary:**
 > Translate the entire query into a business question
+
+## Output Format
+- Provide a clear, plain-language explanation with a short section for each bullet above.
+- Include a brief performance note if relevant.
 
 ## Tips / Notes
 - Specify complexity: "explain for beginners," "focus on optimization," "include execution plan analysis"

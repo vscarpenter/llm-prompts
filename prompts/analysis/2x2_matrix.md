@@ -1,3 +1,9 @@
+---
+domain: analysis
+version: 1.1
+author: llm-prompts
+---
+
 # 2x2 Matrix Generator
 
 ## Prompt
@@ -13,6 +19,12 @@
 > 5. Key insights from the positioning
 >
 > **Format:** Provide both visual representation (ASCII art or description) and detailed analysis
+
+## Output Format
+- Provide a visual representation and a concise analysis using either an ASCII diagram or a Markdown table.
+- If using ASCII: include a 2x2 grid with quadrant labels.
+- If using a table: include a 2x2 grid with quadrant labels and sample items.
+- Include a brief interpretation of each quadrant and a short takeaway.
 
 ## Tips / Notes
 - Common axes: Effort vs Impact, Cost vs Value, Risk vs Reward, Urgency vs Importance

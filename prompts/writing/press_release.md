@@ -1,9 +1,15 @@
+---
+domain: writing
+version: 1.1
+author: llm-prompts
+---
+
 # Press Release Writer
 
 ## Prompt
 > Write a professional press release for this announcement.
 >
-> Announcement: "{{what_you're_announcing}}"
+> Announcement: "{{what_you_re announcing}}"
 > Company: "{{company_name}}"
 > Date: "{{release_date}}"
 > Key details: "{{important_facts}}"
@@ -12,9 +18,9 @@
 >
 > **Press release structure:**
 >
-> **[COMPANY LETTERHEAD / LOGO]**
+> [COMPANY LETTERHEAD / LOGO]
 >
-> **FOR IMMEDIATE RELEASE**
+> FOR IMMEDIATE RELEASE
 >
 > **Contact:**
 > [Name]
@@ -36,7 +42,8 @@
 >
 > **Third paragraph:** [Include a quote from executive or key stakeholder]
 >
-> "Quote text here that provides insight, enthusiasm, or strategic context," said [Name], [Title] at [Company]. "Second sentence of quote if needed."
+> "Quote text here that provides insight, enthusiasm, or strategic context," said [Name], [Title] at [Company].
+> "Second sentence of quote if needed."
 >
 > **Fourth paragraph:** [Additional details, features, benefits, or market context]
 >
@@ -47,7 +54,7 @@
 > ---
 >
 > **About [Company Name]**
-> [100-150 word boilerplate about company - what you do, who you serve, key metrics, location, founding date]
+> [100-150 word boilerplate about company]
 >
 > **Media Contact:**
 > [Repeat contact info]
@@ -55,10 +62,10 @@
 > ###
 
 ## Tips / Notes
-- Specify announcement type: "product launch," "funding round," "partnership," "company milestone," "executive hire"
+- Specify announcement type: "product launch," "funding round," "partnership," etc.
 - Add tone: "industry trade press," "mainstream media," "tech press"
 - Request additions: "include supporting statistics," "add customer testimonial"
-- For distribution: "optimize for newswire services" or "blog post format"
+- For distribution: "newswire services" or "blog post format"
 
 ## Variants
 - "Product launch announcement" (feature-focused with availability details)

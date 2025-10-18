@@ -1,3 +1,9 @@
+---
+domain: product
+version: 1.1
+author: llm-prompts
+---
+
 # User Persona Creator
 
 ## Prompt
@@ -40,15 +46,26 @@
 > **Frustrations with current solutions:**
 > 1. Main frustration
 > 2. Secondary frustration
-
-## Tips / Notes
-- Base on data: "include research findings that support each persona"
-- Add scenarios: "include a day-in-the-life scenario"
-- Request focus: "focus on B2B decision-makers" or "focus on end users"
-- For validation: "include persona validation checklist"
-
-## Variants
-- "Proto-persona" (assumption-based, before user research)
-- "Persona spectrum" (range of users from novice to power user)
-- "Jobs-to-be-done persona" (focus on jobs they're hiring product to do)
-- "Negative persona" (who we're NOT building for)
++
++## Output Format
++- A set of personas with key attributes, one per persona.
++- Include a short validation checklist per persona.
++
++## Sample Output
++```markdown
++Name: Jane Doe
++- Role: Product Manager
++- Demographics: ...
++```
++
++## Tips / Notes
++- Base on data: include research findings that support each persona
++- Add scenarios: include a day-in-the-life scenario
++- Request focus: focus on B2B decision-makers or end users
++- For validation: include persona validation checklist
++
++## Variants
++- "Proto-persona" (assumption-based before research)
++- "Persona spectrum" (range of users from novice to power user)
++- "Jobs-to-be-done persona" (focus on jobs they're hiring product to do)
++- "Negative persona" (who we're NOT building for)

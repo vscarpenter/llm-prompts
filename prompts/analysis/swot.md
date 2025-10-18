@@ -1,3 +1,9 @@
+---
+domain: analysis
+version: 1.1
+author: llm-prompts
+---
+
 # SWOT Analysis Generator
 
 ## Prompt
@@ -15,11 +21,32 @@ Threats: (external, negative)
 Be specific and actionable rather than generic.
 ```
 
+## Output Format
+- A concise 4-quadrant matrix with bullet points per quadrant.
+- Optional prioritization notes for top items.
+
+## Sample Output
+```markdown
+Strengths:
+- Brand recognition
+- Scalable tech
+
+Weaknesses:
+- Limited sales coverage
+- Dependence on a single supplier
+
+Opportunities:
+- New geographic markets
+- Strategic partnerships
+
+Threats:
+- Competitive paywalls
+- Regulatory changes
+```
+
 ## Tips / Notes
-- Provide context for better analysis: include industry, market conditions, timeline
-- Specify perspective: "from a startup viewpoint" or "for enterprise adoption"
-- Request prioritization: "rank items by impact" or "highlight top 3 in each category"
-- Add constraints: "focus on next 12 months" or "consider only technical factors"
+- Tie SWOT items to strategic actions.
+- Use data to back up claims where possible.
 
 ## Variants
 - "SWOT with action items" (include specific next steps for each quadrant)

@@ -1,3 +1,9 @@
+---
+domain: business
+version: 1.1
+author: llm-prompts
+---
+
 # Business Model Canvas
 
 ## Prompt
@@ -14,50 +20,57 @@
 > - Who are we serving?
 > - Primary segment(s)
 > - Niche vs. mass market
->
+> 
 > **2. Value Propositions**
 > - What value do we deliver?
 > - Which customer problems are we solving?
 > - What benefits do we offer?
->
+> 
 > **3. Channels**
 > - How do we reach customers?
 > - Awareness → Evaluation → Purchase → Delivery → After-sales
->
+> 
 > **4. Customer Relationships**
 > - What type of relationship does each segment expect?
 > - Personal assistance / Self-service / Community / Co-creation
->
+> 
 > **5. Revenue Streams**
 > - For what value are customers willing to pay?
 > - How are they currently paying?
 > - Pricing model (subscription, usage, freemium, etc.)
->
+> 
 > **6. Key Resources**
 > - What assets are indispensable?
 > - Physical / Intellectual / Human / Financial
->
+> 
 > **7. Key Activities**
 > - What do we need to do to deliver our value proposition?
 > - Production / Problem-solving / Platform/network
->
+> 
 > **8. Key Partnerships**
 > - Who are our key partners/suppliers?
 > - Strategic alliances / Joint ventures / Supplier relationships
->
+> 
 > **9. Cost Structure**
 > - Most important costs?
 > - Cost-driven vs. value-driven
 > - Fixed vs. variable costs
-
-## Tips / Notes
-- Specify use case: "validate new idea," "pivot existing model," "communicate to investors"
-- Add depth: "include metrics for each block"
-- Request comparison: "show before/after for business pivot"
-- For innovation: "identify weak points and improvement opportunities"
-
-## Variants
-- "Lean Canvas" (more startup-focused: problem, solution, key metrics, unfair advantage)
-- "Value Proposition Canvas" (deep dive on customer jobs, pains, gains)
-- "Business model innovation" (identify opportunities to disrupt existing model)
-- "Competitive canvas comparison" (compare your model vs competitors)
++
++## Output Format
++- One-page canvas in Markdown with sections for each block.
++- Include 2-4 sentence justification per block.
++
++## Sample Output
++```markdown
++# Canvas for Example Venture
++## Value Propositions
++- Example value prop
++## Customer Segments
++- Example segment
++```
++
++## Tips / Notes
++- Keep it concise; focus on testable assumptions.
++
++## Variants
++- "Lean Canvas style" (adapt to lean format)

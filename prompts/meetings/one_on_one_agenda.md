@@ -1,3 +1,9 @@
+---
+domain: meetings
+version: 1.1
+author: llm-prompts
+---
+
 # 1-on-1 Meeting Agenda
 
 ## Prompt
@@ -13,6 +19,7 @@
 > _Space for the other person to add what they want to discuss_
 > -
 > -
++-
 >
 > ## Discussion Items
 > 1. **{{Topic}}** ({{X}} min)
@@ -37,16 +44,17 @@
 > - [ ]
 >
 > **Tone:** Collaborative and open. Leave space for organic conversation. Not everything needs to be covered every time.
-
-## Tips / Notes
-- Send agenda 24 hours before meeting so they can add topics
-- Adjust time allocations based on what matters most right now
-- Skip sections that aren't relevant for this particular meeting
-- Keep standing agenda template but customize each week
-
-## Variants
-**Manager <> Direct Report** - Focus on unblocking, career development, feedback
-
-**Peer 1-on-1** - Focus on collaboration, cross-team alignment, knowledge sharing
-
-**Skip-Level** - Focus on team health, broader context, strategy alignment
++
++## Output Format
++- A focused agenda with time allocations and owners.
++
++## Tips / Notes
++- Send agenda 24 hours before meeting so they can add topics
++- Adjust time allocations based on what matters most right now
++- Skip sections that aren't relevant for this particular meeting
++- Keep standing agenda template but customize each week
++
++## Variants
++- **Manager <> Direct Report** - Focus on unblocking, career development, feedback
++- **Peer 1-on-1** - Focus on collaboration, cross-team alignment, knowledge sharing
++- **Skip-Level** - Focus on team health, broader context, strategy alignment

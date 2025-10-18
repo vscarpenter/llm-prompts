@@ -1,3 +1,9 @@
+---
+domain: data
+version: 1.1
+author: llm-prompts
+---
+
 # Hypothesis Generator
 
 ## Prompt
@@ -38,15 +44,23 @@
 > **7. Implications:**
 > - If hypothesis is supported: [what it means]
 > - If hypothesis is rejected: [what it means]
-
-## Tips / Notes
-- Specify hypothesis type: "causal hypothesis," "correlational," "comparative"
-- Add rigor level: "academic research standard," "business decision-making"
-- Request multiples: "generate 3-5 competing hypotheses"
-- For experiments: "include power analysis requirements"
-
-## Variants
-- "Hypothesis refinement" (make vague hypotheses more specific and testable)
-- "Competing hypotheses" (multiple explanations for same observation)
-- "Hypothesis to experiment design" (from hypothesis to full experimental protocol)
-- "Bayesian hypothesis framing" (prior beliefs and how evidence updates them)
+>
++## Output Format
++- List of 5-10 hypotheses with rationale and test method.
++
++## Sample Output
++```markdown
++H1: ...
++```
++
++## Tips / Notes
++- Specify hypothesis type: "causal","correlational","comparative"
++- Add rigor level: "academic" or "business decision" 
++- Request multiples: "generate 3-5 competing hypotheses"
++- For experiments: "include power analysis requirements"
++
++## Variants
++- "Hypothesis refinement" (make vague hypotheses more specific)
++- "Competing hypotheses" (multiple explanations for same observation)
++- "Hypothesis to experiment design" (from hypothesis to full protocol)
++- "Bayesian hypothesis framing" (prior beliefs and how evidence updates them)

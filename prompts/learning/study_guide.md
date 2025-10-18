@@ -1,4 +1,10 @@
-# Study Guide Generator
+---
+domain: learning
+version: 1.1
+author: llm-prompts
+---
+
+# Study Guide
 
 ## Prompt
 > Create a comprehensive study guide from the following material to help students master the content.
@@ -17,14 +23,22 @@
 >
 > **Format:** Organized by topic, scannable, study-friendly
 
+## Output Format
+- Structured study guide organized by topic with concise sections.
+
+## Sample Output
+```markdown
+Module 1: ...
+```
+
 ## Tips / Notes
-- Specify exam type: "for multiple choice test," "for essay exam," "for practical application"
-- Add difficulty: "focus on foundational concepts" or "include advanced applications"
-- Request specific formats: "include Cornell notes format" or "create outline format"
-- Time constraint: "for cramming in 2 hours" vs "for deep understanding over 2 weeks"
+- Specify exam type: "for multiple choice test," "for essay exam," etc.
+- Add difficulty: "foundational concepts" or "advanced applications"
+- Request specific formats: "Cornell notes" or "outline format"
+- Time constraint: "cramming in 2 hours" vs "deep understanding over 2 weeks"
 
 ## Variants
 - "One-page cheat sheet" (ultra-condensed reference)
-- "Spaced repetition schedule" (what to review when for optimal retention)
-- "Active recall questions" (no answers provided, for self-testing)
-- "Visual study guide" (describe diagrams, flowcharts, mind maps)
+- "Spaced repetition schedule" (review plan)
+- "Active recall questions" (no answers)
+- "Visual study guide" (diagrams, mind maps)

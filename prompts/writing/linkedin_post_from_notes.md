@@ -1,4 +1,10 @@
-# LinkedIn Post from Bullet Notes
+---
+domain: writing
+version: 1.1
+author: llm-prompts
+---
+
+# LinkedIn Post from Notes
 
 ## Prompt
 > Transform the following bullet notes into an engaging LinkedIn post that drives interaction.
@@ -6,20 +12,25 @@
 > Notes: "{{input_notes}}"
 >
 > **Requirements:**
-> - Hook in first line (ask a question or bold statement)
+> - Hook in first line (question or bold statement)
 > - 3-5 short paragraphs with line breaks for readability
 > - Professional yet conversational tone
 > - End with a clear call-to-action (question, invite discussion)
-> - Keep under 1,300 characters for optimal engagement
-
-## Tips / Notes
-- Add hashtags: specify "include 3-5 relevant hashtags"
-- Specify format: "write as a personal story" or "make it data-driven"
-- Target audience: "for CTOs" or "for career switchers"
-- Adjust tone: "make it more vulnerable" or "keep it professional"
-
-## Variants
-- "Create 3 different hooks and pick the best one"
-- "Make it more vulnerable/authentic" (storytelling approach)
-- "Focus on teaching/providing value" (thought leadership)
-- "Thread format" (numbered points 1/5, 2/5, etc.)
+> - Keep under 1,300 characters
++
++## Output Format
++- LinkedIn post text with optional hashtags (3-5).
++
++## Sample Output
++```markdown
++Post text...
++```
++
++## Tips / Notes
++- Include 3-5 hashtags
++- Optional: adapt tone for audience
++
++## Variants
++- "3-hook variant" (test 3 openings)
++- "Data-driven" (include metrics)
++- "Story-driven" (personal narrative)

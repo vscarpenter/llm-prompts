@@ -1,3 +1,9 @@
+---
+domain: analysis
+version: 1.1
+author: llm-prompts
+---
+
 # Trade-Off Analysis
 
 ## Prompt
@@ -20,12 +26,21 @@
 > - Best suited for: (use cases/scenarios)
 >
 > **Head-to-head comparison:**
+>
 > | Criteria | Option A | Option B | Winner |
 > |----------|----------|----------|--------|
->
+> 
 > **Recommendation:**
 > Choose [Option] because [key deciding factors]
 > Consider Option [Other] if [specific conditions]
+
+## Output Format
+- Provide a concise head-to-head with a final recommendation.
+
+## Sample Output
+```markdown
+Recommendation: Choose A due to lower cost and faster time-to-market.
+```
 
 ## Tips / Notes
 - Provide decision criteria: "evaluate on: cost, time, scalability, risk"

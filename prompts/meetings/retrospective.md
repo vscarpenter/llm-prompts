@@ -1,3 +1,9 @@
+---
+domain: meetings
+version: 1.1
+author: llm-prompts
+---
+
 # Sprint/Project Retrospective
 
 ## Prompt
@@ -9,10 +15,10 @@
 >
 > # Retrospective - {{Sprint/Project Name}}
 > **Date:** {{date}}
-> **Attendees:** {{team members}}
+> **Attendees:** {{team_members}}
 >
 > ## Review Period
-> {{Date range or milestone}} - Quick recap of what we worked on
+> {{date_range_or_milestone}} - Quick recap of what we worked on
 >
 > ## What Went Well
 > What should we celebrate or continue doing?
@@ -40,23 +46,18 @@
 >
 > ---
 >
-> **Facilitation Tips:**
+> ## Facilitation Tips:
 > - Everyone contributes (use silent writing first if needed)
 > - Focus on systems/processes, not individuals
 > - Action items should be concrete and measurable
 > - Review previous retro action items first
 >
 > Keep it blame-free and solution-focused. The goal is continuous improvement, not finger-pointing.
-
-## Tips / Notes
-- Do retros regularly (every sprint or after major milestones)
-- Rotate facilitators to get different perspectives
-- Follow up on action items in next retro
-- Try different formats (Start/Stop/Continue, 4Ls, Sailboat) to keep it fresh
-
-## Variants
-**Incident Retrospective** - Focus on timeline, root cause, prevention measures
-
-**Project Post-Mortem** - Deeper analysis for major projects with metrics review
-
-**Team Health Check** - Focus on team dynamics, communication, collaboration
+>
++## Output Format
++- A polished retrospective with sections for What Went Well, What Didn\'t Go Well, Actions, and Follow-up.
++
++## Variants
++- "Incident Retrospective" - Focus on timeline, root cause, prevention measures
++- "Project Post-Mortem" - Deeper analysis for major projects with metrics
++- "Team Health Check" - Focus on team dynamics and processes

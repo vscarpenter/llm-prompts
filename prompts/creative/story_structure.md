@@ -1,11 +1,18 @@
-# Story Structure & Plot Outline
+---
+domain: creative
+version: 1.1
+author: llm-prompts
+---
+
+# Story Structure Generator
 
 ## Prompt
-> Create a compelling story structure for the following narrative concept.
+> Outline a story structure for a narrative concept.
 >
+> Topic: "{{topic}}"
 > Genre: "{{genre}}"
-> Premise: "{{story_idea}}"
-> Target length: "{{short_story|novel|screenplay}}"
+> Audience: "{{audience}}"
+> Length: "{{length}}" sentences
 > Themes: "{{themes_to_explore}}"
 >
 > **Story structure (Three-Act or Hero's Journey):**
@@ -32,15 +39,24 @@
 > - B-plot/subplots
 > - Supporting characters and their arcs
 > - Key scenes/moments
-
-## Tips / Notes
-- Specify structure: "Hero's Journey," "Save the Cat," "Freytag's Pyramid," "Snowflake method"
-- Add genre conventions: "include romance subplot," "twist ending required"
-- Character focus: "ensemble cast" vs "single protagonist journey"
-- For nonfiction narrative: "true story structure" or "case study format"
-
-## Variants
-- "Character development arc" (focus on internal transformation)
-- "Scene-by-scene outline" (detailed beat sheet)
-- "Parallel storylines" (multiple POVs or timelines)
-- "Short story structure" (compressed three-act for 5-10 pages)
++
++## Output Format
++- Provide a beat-by-beat outline or a full three-act structure depending on length.
++
++## Sample Output
++```markdown
++Act 1: Setup ...
++Act 2: Confrontation ...
++Act 3: Resolution ...
++```
++
++## Tips / Notes
++- Specify structure: "Hero's Journey" or "Three-Act" etc.
++- Add genre conventions and any required twists.
++- Focus on character arcs and turning points.
++
++## Variants
++- "Character development arc" (internal transformation focus)
++- "Scene-by-scene outline" (beat sheet)
++- "Parallel storylines" (multiple POVs/timelines)
++- "Short story structure" (compressed three-act for 5-10 pages)

@@ -1,3 +1,9 @@
+---
+domain: learning
+version: 1.1
+author: llm-prompts
+---
+
 # Quiz Generator
 
 ## Prompt
@@ -19,15 +25,23 @@
 > - Application (how would you use...?)
 > - Analysis (why does...?)
 > - Synthesis (what if...?)
-
-## Tips / Notes
-- Specify question format: "all multiple choice," "short answer only," "mix of types"
-- Add constraints: "no negative questions," "include 'all of the above' options"
-- Request Bloom's taxonomy levels: "focus on analysis and synthesis"
-- For practice: "include hints for each question"
-
-## Variants
-- "Exam simulation" (timed, comprehensive, realistic difficulty)
-- "Diagnostic quiz" (identify knowledge gaps, provide learning recommendations)
-- "Progressive quiz" (adaptive difficulty based on performance)
-- "Scenario-based assessment" (case studies with multiple related questions)
++
++## Output Format
++- List of questions with options and correct answer.
++
++## Sample Output
++```markdown
++1) What's the main concept? A) ... B) ... C) ... | Answer: A
++```
++
++## Tips / Notes
++- Specify question format: "all multiple choice," "short answer only," or "mixed"
++- Add constraints: "no negative questions," "include 'all of the above' options"
++- Request Bloom's taxonomy levels: "focus on analysis and synthesis"
++- For practice: "include hints for each question"
++
++## Variants
++- "Exam simulation" (timed, realistic difficulty)
++- "Diagnostic quiz" (identify knowledge gaps, provide learning recommendations)
++- "Progressive quiz" (adaptive difficulty)
++- "Scenario-based assessment" (case studies with related questions)

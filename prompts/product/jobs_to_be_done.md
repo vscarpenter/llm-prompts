@@ -42,9 +42,8 @@ author: llm-prompts
 > - How should our product help get this job done?
 > - What features align with this job?
 > - How do we outperform current solutions?
-+
-+## Output Format
-+- Prioritized JTBD findings with 1-2 actionable next steps per item.
+## Output Format
+- Prioritized JTBD findings with 1-2 actionable next steps per item.
 
 ## Sample Output
 ```markdown

@@ -42,15 +42,13 @@ author: llm-prompts
 >
 > **Parking Lot** (topics tabled for later):
 > - [Topic to revisit]
-+
-+## Tips / Notes
-+- Specify format: "for team sync," "for client meeting," "for executive briefing"
-+- Add urgency: "flag urgent action items"
-+- Request clarity: "convert vague notes into specific, measurable actions"
-+- For distribution: "format for Slack/email/project management tool"
-+
-+## Variants
-+- "Executive summary" (condensed to 5 bullet points for leadership)
-+- "Action-only email" (just the action items for quick reference)
-+- "Decision log" (focus on capturing decisions with context)
-+- "Customer meeting notes" (include customer feedback themes and requests)
+## Tips / Notes
+- Specify format: "for team sync," "for client meeting," "for executive briefing"
+- Add urgency: "flag urgent action items"
+- Request clarity: "convert vague notes into specific, measurable actions"
+- For distribution: "format for Slack/email/project management tool"
+## Variants
+- "Executive summary" (condensed to 5 bullet points for leadership)
+- "Action-only email" (just the action items for quick reference)
+- "Decision log" (focus on capturing decisions with context)
+- "Customer meeting notes" (include customer feedback themes and requests)

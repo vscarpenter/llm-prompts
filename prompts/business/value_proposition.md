@@ -29,9 +29,9 @@ We help {{customer}} by solving {{pains}} with {{product}} so they can {{gains}}
 ```
 
 ## Tips / Notes
-+- Ground in customer job-to-be-done and measurable gains.
-+- Keep it language that resonates with target segments.
+- Ground in customer job-to-be-done and measurable gains.
+- Keep it language that resonates with target segments.
 
 ## Variants
-+- "One-liner" ( ultra concise )
-+- "Messaging pillar" (broader positioning statements)
+- "One-liner" ( ultra concise )
+- "Messaging pillar" (broader positioning statements)

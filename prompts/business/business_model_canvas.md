@@ -55,22 +55,18 @@ author: llm-prompts
 > - Most important costs?
 > - Cost-driven vs. value-driven
 > - Fixed vs. variable costs
-+
-+## Output Format
-+- One-page canvas in Markdown with sections for each block.
-+- Include 2-4 sentence justification per block.
-+
-+## Sample Output
-+```markdown
-+# Canvas for Example Venture
-+## Value Propositions
-+- Example value prop
-+## Customer Segments
-+- Example segment
-+```
-+
-+## Tips / Notes
-+- Keep it concise; focus on testable assumptions.
-+
-+## Variants
-+- "Lean Canvas style" (adapt to lean format)
+## Output Format
+- One-page canvas in Markdown with sections for each block.
+- Include 2-4 sentence justification per block.
+## Sample Output
+```markdown
+# Canvas for Example Venture
+## Value Propositions
+- Example value prop
+## Customer Segments
+- Example segment
+```
+## Tips / Notes
+- Keep it concise; focus on testable assumptions.
+## Variants
+- "Lean Canvas style" (adapt to lean format)

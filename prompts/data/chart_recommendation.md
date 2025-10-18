@@ -27,4 +27,4 @@ Rationale: Easy comparison across categories for audience X.
 
 ## Tips / Notes
 - Align chart with story: narrative vs analysis vs monitoring
-+- Ensure accessibility (color-blind friendly) and readability
+- Ensure accessibility (color-blind friendly) and readability

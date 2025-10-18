@@ -54,10 +54,9 @@ author: llm-prompts
 >
 > Keep it blame-free and solution-focused. The goal is continuous improvement, not finger-pointing.
 >
-+## Output Format
-+- A polished retrospective with sections for What Went Well, What Didn\'t Go Well, Actions, and Follow-up.
-+
-+## Variants
-+- "Incident Retrospective" - Focus on timeline, root cause, prevention measures
-+- "Project Post-Mortem" - Deeper analysis for major projects with metrics
-+- "Team Health Check" - Focus on team dynamics and processes
+## Output Format
+- A polished retrospective with sections for What Went Well, What Didn\'t Go Well, Actions, and Follow-up.
+## Variants
+- "Incident Retrospective" - Focus on timeline, root cause, prevention measures
+- "Project Post-Mortem" - Deeper analysis for major projects with metrics
+- "Team Health Check" - Focus on team dynamics and processes

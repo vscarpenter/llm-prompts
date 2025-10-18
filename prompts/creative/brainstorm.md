@@ -26,9 +26,8 @@ author: llm-prompts
 > - Brief description (1-2 sentences)
 > - Potential impact (high/medium/low)
 > - Feasibility (easy/moderate/hard)
-+
-+## Variants
-+- "Reverse brainstorming" (how to cause the problem, then invert)
-+- "SCAMPER method" (Substitute, Combine, Adapt, Modify, Put to other use, Eliminate, Reverse)
-+- "Rapid ideation" (quantity over quality, 50 ideas in 10 minutes)
-+- "Constraint-based creativity" (use limitations as creative fuel)
+## Variants
+- "Reverse brainstorming" (how to cause the problem, then invert)
+- "SCAMPER method" (Substitute, Combine, Adapt, Modify, Put to other use, Eliminate, Reverse)
+- "Rapid ideation" (quantity over quality, 50 ideas in 10 minutes)
+- "Constraint-based creativity" (use limitations as creative fuel)

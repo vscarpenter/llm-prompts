@@ -35,24 +35,20 @@ author: llm-prompts
 > - Next (Q2): [features]
 > - Later (Q3+): [features]
 > - Never: [features to cut]
-+
-+## Output Format
-+- Prioritized feature list with rationale per item.
-+- Optional visual (2x2 or small table).
-+
-+## Sample Output
-+```markdown
-+1) Feature A (Score: 72) - Improves onboarding; rationale...
-+```
-+
-+## Tips / Notes
-+- Specify framework or request recommendation: select best prioritization method for early-stage.
-+- Add strategic context: retention vs acquisition, debt payoff, etc.
-+- Request alternatives: show prioritization with 2-3 frameworks.
-+- For stakeholder buy-in: include rationale for each decision.
-+
-+## Variants
-+- "Value vs. Effort matrix" (2x2 visualization)
-+- "Kano model analysis" (classify as basic/performance/delighter)
-+- "WSJF" (Weighted Shortest Job First)
-+- "Theme-based prioritization" (group by themes)
+## Output Format
+- Prioritized feature list with rationale per item.
+- Optional visual (2x2 or small table).
+## Sample Output
+```markdown
+1) Feature A (Score: 72) - Improves onboarding; rationale...
+```
+## Tips / Notes
+- Specify framework or request recommendation: select best prioritization method for early-stage.
+- Add strategic context: retention vs acquisition, debt payoff, etc.
+- Request alternatives: show prioritization with 2-3 frameworks.
+- For stakeholder buy-in: include rationale for each decision.
+## Variants
+- "Value vs. Effort matrix" (2x2 visualization)
+- "Kano model analysis" (classify as basic/performance/delighter)
+- "WSJF" (Weighted Shortest Job First)
+- "Theme-based prioritization" (group by themes)

@@ -63,11 +63,9 @@ author: llm-prompts
 > - [ ] {{Action if we choose Option 2}}
 >
 > **Pre-work:** Share this doc 48 hours before meeting. Ask attendees to review and add questions.
-+
-+## Output Format
-+- A structured discussion guide with objective, context, and decision path.
-+
-+## Variants
-+- "Design Review" - Focus on feedback for a proposed solution
-+- "Architecture Discussion" - Include system diagrams and scalability
-+- "Technical Spike Review" - Present findings from investigation with recommendations
+## Output Format
+- A structured discussion guide with objective, context, and decision path.
+## Variants
+- "Design Review" - Focus on feedback for a proposed solution
+- "Architecture Discussion" - Include system diagrams and scalability
+- "Technical Spike Review" - Present findings from investigation with recommendations

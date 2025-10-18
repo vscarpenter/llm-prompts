@@ -45,8 +45,8 @@ author: llm-prompts
 > Keep it factual and concise. This should help someone understand why this decision was made.
 
 ## Output Format
-+- A concise decision log with date, deciders, status, rationale, and next steps.
+- A concise decision log with date, deciders, status, rationale, and next steps.
 
 ## Variants
-+- "Quick Decision Record" - minimal fields
-+- "Product Decision Log" - include customer impact, metrics
+- "Quick Decision Record" - minimal fields
+- "Product Decision Log" - include customer impact, metrics

@@ -56,25 +56,20 @@ author: llm-prompts
 > - Listen more than talk (80/20 rule)
 > - Ask for specific examples and stories
 > - Note body language and emotional reactions
-+
-+## Output Format
-+- Provide a structured interview guide with sections for intro, questions, and closing.
-+- Include probes and a note-taking template.
-+
-+## Sample Output
-+```markdown
-+### Introduction
-+- Hi, I’m...
-+
-+### Questions
-+1. How do you currently handle...
-+2. Why is that important to you?
-+```
-+
-+## Tips / Notes
-+- Personalize questions to the segment.
-+- Include probes for deeper insights.
-+
-+## Variants
-+- "B2B enterprise focused" (longer, more formal)
-+- "Consumer-focused" (short, casual)
+## Output Format
+- Provide a structured interview guide with sections for intro, questions, and closing.
+- Include probes and a note-taking template.
+## Sample Output
+```markdown
+### Introduction
+- Hi, I’m...
+### Questions
+1. How do you currently handle...
+2. Why is that important to you?
+```
+## Tips / Notes
+- Personalize questions to the segment.
+- Include probes for deeper insights.
+## Variants
+- "B2B enterprise focused" (longer, more formal)
+- "Consumer-focused" (short, casual)

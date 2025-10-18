@@ -24,5 +24,5 @@ author: llm-prompts
 ```
 
 ## Tips / Notes
-+- Test for memorability and pronunciation.
-+- Consider internationalization and syllable count.
+- Test for memorability and pronunciation.
+- Consider internationalization and syllable count.

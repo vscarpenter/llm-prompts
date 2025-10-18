@@ -82,28 +82,23 @@ author: llm-prompts
 > - [ ] Validate assumptions for winning option
 > - [ ] Prototype/pilot if needed
 > - [ ] Get stakeholder buy-in
-+
-+## Output Format
-+- Provide a ranked list of options with brief justification per item.
-+- Include a small table of criteria scores per option.
-+
-+## Sample Output
-+```markdown
-+Rank 1: Option A — Justification...
-+Rank 2: Option B — Justification...
-+Rank 3: Option C — Justification...
-+
-+| Option | Criterion1 | Criterion2 | Criterion3 |
-+|--------|------------|------------|------------|
-+| A      | 0.9        | 0.6        | 0.8        |
-+| B      | 0.7        | 0.9        | 0.5        |
-+| C      | 0.5        | 0.4        | 0.7        |
-+```
-+
-+## Tips / Notes
-+- Clarify how weights map to scores.
-+- Include sensitivity note if weights change slightly.
-+
-+## Variants
-+- "Weighted criteria with probabilistic scoring" (adds confidence)
-+- "Simple ranking" (no numeric scores)
+## Output Format
+- Provide a ranked list of options with brief justification per item.
+- Include a small table of criteria scores per option.
+## Sample Output
+```markdown
+Rank 1: Option A — Justification...
+Rank 2: Option B — Justification...
+Rank 3: Option C — Justification...
+| Option | Criterion1 | Criterion2 | Criterion3 |
+|--------|------------|------------|------------|
+| A      | 0.9        | 0.6        | 0.8        |
+| B      | 0.7        | 0.9        | 0.5        |
+| C      | 0.5        | 0.4        | 0.7        |
+```
+## Tips / Notes
+- Clarify how weights map to scores.
+- Include sensitivity note if weights change slightly.
+## Variants
+- "Weighted criteria with probabilistic scoring" (adds confidence)
+- "Simple ranking" (no numeric scores)

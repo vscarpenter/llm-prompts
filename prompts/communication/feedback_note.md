@@ -21,28 +21,23 @@ author: llm-prompts
 >
 > **Tone:** Respectful, empathetic, growth-focused
 > **Format:** 3-5 sentences, include positive framing where appropriate
-+
-+## Output Format
-+- Polished feedback note with 1-2 actionable next steps.
-+
-+## Sample Output
-+```markdown
-+Hi {{recipient}},
-+
-+Feedback: {{feedback}}.
-+Next steps: 1) ..., 2) ...
-+Best,
-+{{sender}}
-+```
-+
-+## Tips / Notes
-+- For positive feedback, be specific about what to keep doing
-+- For critical feedback, focus on behavior not personality
-+- End with a question: "How do you see it?" or "What support do you need?"
-+- Specify relationship: "for peer," "for direct report," "for manager"
-+
-+## Variants
-+- "360 feedback format" (structured with rating + comments)
-+- "Radical candor approach" (direct but caring)
-+- "Growth-focused feedback" (emphasize potential and development)
-+- "Peer feedback" (collaborative, equals-based tone)
+## Output Format
+- Polished feedback note with 1-2 actionable next steps.
+## Sample Output
+```markdown
+Hi {{recipient}},
+Feedback: {{feedback}}.
+Next steps: 1) ..., 2) ...
+Best,
+{{sender}}
+```
+## Tips / Notes
+- For positive feedback, be specific about what to keep doing
+- For critical feedback, focus on behavior not personality
+- End with a question: "How do you see it?" or "What support do you need?"
+- Specify relationship: "for peer," "for direct report," "for manager"
+## Variants
+- "360 feedback format" (structured with rating + comments)
+- "Radical candor approach" (direct but caring)
+- "Growth-focused feedback" (emphasize potential and development)
+- "Peer feedback" (collaborative, equals-based tone)

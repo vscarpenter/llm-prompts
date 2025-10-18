@@ -21,23 +21,19 @@ author: llm-prompts
 >
 > **Tone:** Conversational, encouraging, non-condescending
 > **Avoid:** Jargon, circular definitions, overwhelming detail
-+
-+## Output Format
-+- Simple explanation with optional examples or visuals.
-+
-+## Sample Output
-+```markdown
-+Concept: Quantum Superposition
-+Explanation: ...
-+```
-+
-+## Tips / Notes
-+- Audience level: "ELI5", "explain like a student" etc.
-+- Learning goal: what to enable next
-+- Request analogies: cooking analogy, everyday tech
-+
-+## Variants
-+- "ELI5 format" (extremely simple, playful)
-+- "Explain with visual metaphor" (image/diagram)
-+- "Socratic explanation" (guided questions)
-+- "Build-up explanation" (start simple, add complexity)
+## Output Format
+- Simple explanation with optional examples or visuals.
+## Sample Output
+```markdown
+Concept: Quantum Superposition
+Explanation: ...
+```
+## Tips / Notes
+- Audience level: "ELI5", "explain like a student" etc.
+- Learning goal: what to enable next
+- Request analogies: cooking analogy, everyday tech
+## Variants
+- "ELI5 format" (extremely simple, playful)
+- "Explain with visual metaphor" (image/diagram)
+- "Socratic explanation" (guided questions)
+- "Build-up explanation" (start simple, add complexity)

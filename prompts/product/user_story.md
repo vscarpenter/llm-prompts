@@ -35,23 +35,19 @@ author: llm-prompts
 > - Priority: High/Medium/Low
 > - Story points estimate: X
 > - Dependencies: [related stories]
-+
-+## Output Format
-+- A set of user stories with acceptance criteria in Gherkin-like syntax.
-+
-+## Sample Output
-+```markdown
-+As a user, I want to ...
-+```
-+
-+## Tips / Notes
-+- Specify format: "Gherkin syntax," "traditional user story," "job story format"
-+- Add granularity: "epic level," "feature level," "task level"
-+- Request details: "include wireframes," "include API requirements"
-+- For technical stories: "system-level stories"
-+
-+## Variants
-+- "Epic breakdown" (large feature split into multiple user stories)
-+- "Job story format" (When [situation], I want to [motivation], so I can [outcome])
-+- "User story mapping" (organize stories by user journey)
-+- "Story refinement" (refine rough idea into ready-to-develop story)
+## Output Format
+- A set of user stories with acceptance criteria in Gherkin-like syntax.
+## Sample Output
+```markdown
+As a user, I want to ...
+```
+## Tips / Notes
+- Specify format: "Gherkin syntax," "traditional user story," "job story format"
+- Add granularity: "epic level," "feature level," "task level"
+- Request details: "include wireframes," "include API requirements"
+- For technical stories: "system-level stories"
+## Variants
+- "Epic breakdown" (large feature split into multiple user stories)
+- "Job story format" (When [situation], I want to [motivation], so I can [outcome])
+- "User story mapping" (organize stories by user journey)
+- "Story refinement" (refine rough idea into ready-to-develop story)

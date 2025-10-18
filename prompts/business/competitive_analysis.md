@@ -55,23 +55,19 @@ author: llm-prompts
 > **6. Threats & Response Plans**
 > - Competitive threats on the horizon
 > - How to defend against their moves
-+
-+## Output Format
-+- Provide a concise executive summary and a compact, battle-card style output.
-+- Include a short prioritization of top differentiators.
-+
-+## Sample Output
-+```markdown
-+Top Differentiators: Local data sovereignty, simpler UX, cost parity
-+```
-+
-+## Tips / Notes
-+- Specify depth: "high-level overview" or "deep feature parity".
-+- Request competitive battle cards for sales enablement.
-+- Suggest blue ocean opportunities if applicable.
-+
-+## Variants
-+- "Competitive battle cards" (sales enablement for common competitors)
-+- "Market positioning analysis" (strategic positioning vs. competitors)
-+- "Pricing competitive analysis" (deep dive on pricing and packaging)
-+- "Feature gap analysis" (identify gaps to close)
+## Output Format
+- Provide a concise executive summary and a compact, battle-card style output.
+- Include a short prioritization of top differentiators.
+## Sample Output
+```markdown
+Top Differentiators: Local data sovereignty, simpler UX, cost parity
+```
+## Tips / Notes
+- Specify depth: "high-level overview" or "deep feature parity".
+- Request competitive battle cards for sales enablement.
+- Suggest blue ocean opportunities if applicable.
+## Variants
+- "Competitive battle cards" (sales enablement for common competitors)
+- "Market positioning analysis" (strategic positioning vs. competitors)
+- "Pricing competitive analysis" (deep dive on pricing and packaging)
+- "Feature gap analysis" (identify gaps to close)

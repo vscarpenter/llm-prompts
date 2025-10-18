@@ -39,24 +39,20 @@ author: llm-prompts
 > - B-plot/subplots
 > - Supporting characters and their arcs
 > - Key scenes/moments
-+
-+## Output Format
-+- Provide a beat-by-beat outline or a full three-act structure depending on length.
-+
-+## Sample Output
-+```markdown
-+Act 1: Setup ...
-+Act 2: Confrontation ...
-+Act 3: Resolution ...
-+```
-+
-+## Tips / Notes
-+- Specify structure: "Hero's Journey" or "Three-Act" etc.
-+- Add genre conventions and any required twists.
-+- Focus on character arcs and turning points.
-+
-+## Variants
-+- "Character development arc" (internal transformation focus)
-+- "Scene-by-scene outline" (beat sheet)
-+- "Parallel storylines" (multiple POVs/timelines)
-+- "Short story structure" (compressed three-act for 5-10 pages)
+## Output Format
+- Provide a beat-by-beat outline or a full three-act structure depending on length.
+## Sample Output
+```markdown
+Act 1: Setup ...
+Act 2: Confrontation ...
+Act 3: Resolution ...
+```
+## Tips / Notes
+- Specify structure: "Hero's Journey" or "Three-Act" etc.
+- Add genre conventions and any required twists.
+- Focus on character arcs and turning points.
+## Variants
+- "Character development arc" (internal transformation focus)
+- "Scene-by-scene outline" (beat sheet)
+- "Parallel storylines" (multiple POVs/timelines)
+- "Short story structure" (compressed three-act for 5-10 pages)

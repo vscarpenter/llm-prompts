@@ -44,25 +44,21 @@ author: llm-prompts
 > **Follow-up sequence:**
 > - Email 2 (3 days later): [Different angle]
 > - Email 3 (7 days later): [Final touch, breakup email]
-+
-+## Output Format
-+- Short, personalized email with 1-3 test subject lines.
-+- Optional follow-up sequence template.
-+
-+## Sample Output
-+```markdown
-+Subject: Quick idea for {{company}} in {{industry}}
-+Body: Hi {{name}}, ...
-+```
-+
-+## Tips / Notes
-+- Specify tone: "friendly, professional, direct, value-first"
-+- Add context: "B2B sales, partnership outreach, recruiting, PR/media"
-+- Request testing: "create 3 versions with different hooks"
-+- For scale: "template with variables for personalization"
-+
-+## Variants
-+- "Sales outreach sequence" (multi-touch campaign)
-+- "Partnership proposal email" (collaboration focus)
-+- "Recruiting/hiring outreach" (talent attraction)
-+- "Breakup email" (final attempt with FOMO angle)
+## Output Format
+- Short, personalized email with 1-3 test subject lines.
+- Optional follow-up sequence template.
+## Sample Output
+```markdown
+Subject: Quick idea for {{company}} in {{industry}}
+Body: Hi {{name}}, ...
+```
+## Tips / Notes
+- Specify tone: "friendly, professional, direct, value-first"
+- Add context: "B2B sales, partnership outreach, recruiting, PR/media"
+- Request testing: "create 3 versions with different hooks"
+- For scale: "template with variables for personalization"
+## Variants
+- "Sales outreach sequence" (multi-touch campaign)
+- "Partnership proposal email" (collaboration focus)
+- "Recruiting/hiring outreach" (talent attraction)
+- "Breakup email" (final attempt with FOMO angle)

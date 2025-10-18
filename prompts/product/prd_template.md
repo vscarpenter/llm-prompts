@@ -48,25 +48,21 @@ author: llm-prompts
 > - Rollout strategy
 > - Timeline and milestones
 > - Risks and mitigation
-+
-+## Output Format
-+- A complete PRD document in Markdown with sections and structured content.
-+
-+## Sample Output
-+```markdown
-+# PRD Title
-+## Overview
-+...
-+```
-+
-+## Tips / Notes
-+- Specify depth: "one-pager," "detailed PRD," "epic-level overview"
-+- Add audience: "for engineering," "for stakeholders," "for design"
-+- Request sections: "include competitive analysis," "include user research findings"
-+- For new products: "include go-to-market section"
-+
-+## Variants
-+- "Lean PRD" (one-page)
-+- "Technical spec from PRD" (translate to engineering requirements)
-+- "PRD review checklist" (evaluate an existing PRD)
-+- "Feature brief" (lightweight version for small features)
+## Output Format
+- A complete PRD document in Markdown with sections and structured content.
+## Sample Output
+```markdown
+# PRD Title
+## Overview
+...
+```
+## Tips / Notes
+- Specify depth: "one-pager," "detailed PRD," "epic-level overview"
+- Add audience: "for engineering," "for stakeholders," "for design"
+- Request sections: "include competitive analysis," "include user research findings"
+- For new products: "include go-to-market section"
+## Variants
+- "Lean PRD" (one-page)
+- "Technical spec from PRD" (translate to engineering requirements)
+- "PRD review checklist" (evaluate an existing PRD)
+- "Feature brief" (lightweight version for small features)

@@ -101,22 +101,19 @@ author: llm-prompts
 > - Leading indicators to monitor
 > - Review date to assess effectiveness
 > 
-+## Output Format
-+- Provide a concise RCA outline with clear, testable actions.
-+- Include a brief mapping from root causes to mitigations.
-+
-+## Sample Output
-+```markdown
-+Root Cause: Missing validation on input fields
-+Action: Add server-side validation; update unit tests
-+Evidence: logs show invalid values processed
-+```
-+
-+## Tips / Notes
-+- Specify method: "use 5 Whys," "Fishbone diagram," etc.
-+- Request depth: "quick RCA" or "comprehensive investigation"
-+- For teams: "blameless RCA format"
-+
-+## Variants
-+- "5 Whys only" (rapid RCA)
-+- "Fishbone only" (cause analysis)
+## Output Format
+- Provide a concise RCA outline with clear, testable actions.
+- Include a brief mapping from root causes to mitigations.
+## Sample Output
+```markdown
+Root Cause: Missing validation on input fields
+Action: Add server-side validation; update unit tests
+Evidence: logs show invalid values processed
+```
+## Tips / Notes
+- Specify method: "use 5 Whys," "Fishbone diagram," etc.
+- Request depth: "quick RCA" or "comprehensive investigation"
+- For teams: "blameless RCA format"
+## Variants
+- "5 Whys only" (rapid RCA)
+- "Fishbone only" (cause analysis)

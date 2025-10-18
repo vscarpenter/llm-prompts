@@ -27,3 +27,8 @@ Desktop.ini
 # Personal Notes (if users want to keep local notes)
 notes/
 scratch/
+
+# Project-specific exclusions
+AGENTS.md
+GEMINI.md
+CLAUDE.md

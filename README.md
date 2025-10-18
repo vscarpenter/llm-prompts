@@ -140,11 +140,11 @@ Product management frameworks
 
 ### ⚡ Productivity (5 prompts)
 Personal and team productivity
-- `daily_plan.md` - Daily planning
-- `okr_generator.md` - OKR creation
-- `prioritization.md` - Task prioritization
-- `retrospective.md` - Team retrospectives
-- `task_breakdown.md` - Work breakdown
+- `daily_plan.md` - Time-blocked schedules tied to must-win outcomes and energy
+- `okr_generator.md` - OKRs with initiatives, owners, and measurement cadence
+- `prioritization.md` - Framework scoring with risk, dependency, and parking lot views
+- `retrospective.md` - Data-driven retro with accountable follow-ups
+- `task_breakdown.md` - Phased WBS with acceptance criteria and comms plan
 
 ### 📝 Summarization (2 prompts)
 Content condensation and synthesis
